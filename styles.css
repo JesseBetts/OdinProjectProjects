@@ -1,0 +1,147 @@
+* {
+    font-family: roboto;
+    margin:0;
+}
+.wrapper {
+
+}
+
+.NavBar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    align-items: center;
+    height: 60px;
+    color: #E5E7EB;
+}
+
+ul li {
+        list-style: none;
+}
+
+a {
+        text-decoration: none;
+    color: #E5E7EB;
+
+}
+
+ul {
+    display: flex;
+        gap:16px;  
+}
+
+NavBar h4 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+header {
+    display:flex;
+    height: 280px;
+    background-color: #1f2937;
+    justify-content: center;
+    padding:100px;
+    
+}
+
+.hero-text h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.hero-text {
+    display:flex;
+
+}
+
+.hero-text img {
+    height: 250px;
+    width: 500px;
+    object-fit: cover;
+}
+
+.juntos {
+    width: 500px;
+}
+.juntos p {
+    margin-right: 100px;
+    text-align: left;
+    color: #E5E7EB
+}
+
+button {
+background-color: #3882F6;
+color: #F9FAF8;
+padding:8px 25px 8px 25px;
+border:none;
+border-radius: 8px;
+margin-top:10px;
+}
+
+
+
+.icons-and-text {
+    display: flex;
+    justify-content: center;
+    gap:50px;
+}
+
+.boxes img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid #3882F6;
+}
+
+.info-container {
+    text-align: center;
+    height: 475px;
+}
+.info-container h3{
+font-size: 36px;
+color: #1F2937;
+font-weight: 900;
+padding: 50px;
+}
+
+.boxes p {
+    width: 150px;
+    color: slategray;
+
+}
+
+.container-quote{
+    height: 400px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     justify-content: center;
+}
+
+.container-quote h4 {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    width: 800px;
+ 
+}
+
+.container-quote h5 {
+    width: 750px;
+    text-align: right;
+font-size: large;
+}
+
+.action {
+    background-color: #3882F6;
+    margin: 100px;
+    padding: 50px;
+}
+
+button {
+border:none;
+border-radius: 8px;
+margin-top:10px;
+}
